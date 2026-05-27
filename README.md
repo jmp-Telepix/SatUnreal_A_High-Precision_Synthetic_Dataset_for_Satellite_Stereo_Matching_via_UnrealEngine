@@ -185,6 +185,7 @@ Each stereo sample is accompanied by a JSON file containing scene, capture, and 
 
 <details>
 <summary>View JSON example</summary>
+  
 ```json
 {
   "baseline_m": 50,
