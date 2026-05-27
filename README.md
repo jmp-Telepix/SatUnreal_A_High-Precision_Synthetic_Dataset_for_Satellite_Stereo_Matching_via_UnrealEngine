@@ -185,7 +185,7 @@ Each stereo sample is accompanied by a JSON file containing scene, capture, and 
 
 <details>
 <summary>View JSON example</summary>
-  
+
 ```json
 {
   "baseline_m": 50,
@@ -235,7 +235,7 @@ From these assets, the system generates synchronized stereo images along with co
 
 It then computes disparity maps and exports the results as a structured dataset. The exported dataset includes stereo pairs, raw disparity data, normalized disparity maps, and visualization outputs for inspection and evaluation.
 
-<table align="center" bgcolor="#FFFFFF"><tr><td align="center">
+<table align="center" style="background-color: #ffffff"><tr><td align="center">
 <img src="./images/FlowChart_DataSet.png" alt="SatUnreal dataset generation pipeline">
 </td></tr></table>
 
@@ -249,15 +249,15 @@ This dataset was generated at an altitude of **1 km** in Unreal Engine’s nativ
 
 <table>
   <tr>
-    <td align="center" valign="top" width="33%" bgcolor="#FFFFFF">
+    <td align="center" valign="top" width="33%" style="background-color: #ffffff">
       <b>California</b><br><br>
       <img src="./images/Tbn_California_1.png" alt="Tbn California_1" width="230"><br><br>
     </td>
-    <td align="center" valign="top" width="33%" bgcolor="#FFFFFF">
+    <td align="center" valign="top" width="33%" style="background-color: #ffffff">
       <b>Toronto</b><br><br>
       <img src="./images/Tbn_Toronto.png" alt="Tbn Toronto" width="230"><br><br>
     </td>
-    <td align="center" valign="top" width="33%" bgcolor="#FFFFFF">
+    <td align="center" valign="top" width="33%" style="background-color: #ffffff">
       <b>Venice</b><br><br>
       <img src="./images/Tbn_Venice.png" alt="Tbn Venice" width="230"><br><br>
     </td>
@@ -268,23 +268,23 @@ This dataset was generated at an altitude of **1 km** in Unreal Engine’s nativ
 
 <table>
   <tr>
-    <td align="center" valign="top" width="20%" bgcolor="#FFFFFF">
+    <td align="center" valign="top" width="20%" style="background-color: #ffffff">
       <b>Forest</b><br><br>
       <img src="./images/Tbn_Forest_NoTree.png" alt="Tbn Forest NoTree" width="170"><br><br>
     </td>
-    <td align="center" valign="top" width="20%" bgcolor="#FFFFFF">
+    <td align="center" valign="top" width="20%" style="background-color: #ffffff">
       <b>Canyon</b><br><br>
       <img src="./images/Tbn_Canyon_NoTree.png" alt="Tbn Canyon NoTree" width="170"><br><br>
     </td>
-    <td align="center" valign="top" width="20%" bgcolor="#FFFFFF">
+    <td align="center" valign="top" width="20%" style="background-color: #ffffff">
       <b>Coast</b><br><br>
       <img src="./images/Tbn_Coast.png" alt="Tbn Coast" width="170"><br><br>
     </td>
-    <td align="center" valign="top" width="20%" bgcolor="#FFFFFF">
+    <td align="center" valign="top" width="20%" style="background-color: #ffffff">
       <b>Desert</b><br><br>
       <img src="./images/Tbn_Desert.png" alt="Tbn Desert" width="170"><br><br>
     </td>
-    <td align="center" valign="top" width="20%" bgcolor="#FFFFFF">
+    <td align="center" valign="top" width="20%" style="background-color: #ffffff">
       <b>Field</b><br><br>
       <img src="./images/Tbn_Field.png" alt="Tbn Field" width="170"><br><br>
     </td>
@@ -423,7 +423,7 @@ d = u_L - u_R
 
 </details>
 
-<table align="center" bgcolor="#FFFFFF"><tr><td align="center">
+<table align="center" style="background-color: #ffffff"><tr><td align="center">
 <img src="./images/Algorithm_Disparity.png" alt="Ground-Truth Disparity Map Generation Algorithm">
 </td></tr></table>
 
