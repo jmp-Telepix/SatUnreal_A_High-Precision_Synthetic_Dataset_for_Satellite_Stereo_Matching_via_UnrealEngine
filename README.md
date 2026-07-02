@@ -6,7 +6,7 @@
 
 ---
 
-Demo code and captured disparity maps for the paper  
+Captured disparity maps for the paper  
 **“SatUnreal: A High-Precision Synthetic Dataset for Satellite Stereo Matching via Unreal Engine,”**  
 presented at **“CVPR Workshop EarthVision 2026”**.
 
@@ -448,7 +448,7 @@ Telepix makes no representations or warranties, express or implied, regarding th
 
 TELEPIX shall not be liable for any damages suffered by the user arising from the use, modification, or distribution of this DataSet.
 
-For further details, please refer to the [license](<LICENSE_LINK>).
+For further details, please refer to the [license](<https://www.telepix.ai/privacy>).
 
 ---
 ## Citation
@@ -471,9 +471,9 @@ If you use this dataset or find our work useful, please cite:
 
 - [RAFT-Stereo](https://github.com/princeton-vl/RAFT-Stereo)
 - [Selective-IGEV](https://github.com/Windsrain/Selective-Stereo)
-- [DLNR](https://github.com/David-Zhao-1997/High-frequency-Stereo-Matching-Network)
+- [DLNR](https://github.com/StereoResearcher/DLNR)
 
 ### Datasets
 
-- [US3D](https://github.com/pubgeo/dfc2019)
+- [US3D](https://ieee-dataport.org/open-access/urban-semantic-3d-dataset)
 - [WHU-Stereo](https://github.com/Sheng029/WHU-Stereo)
