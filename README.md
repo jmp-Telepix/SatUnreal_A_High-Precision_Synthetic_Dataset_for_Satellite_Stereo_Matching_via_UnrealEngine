@@ -1,8 +1,8 @@
 # SatUnreal: A High-Precision Synthetic Dataset for Satellite Stereo Matching via Unreal Engine
 
-**[Project page](<POJECT_PAGE_LINK>)** | **[Paper](<PAPER_LINK>)** | **[Supplemental](<SUPPLEMENTAL_LINK>)**
+**[Project page](<https://github.com/jmp-Telepix/SatUnreal_A_High-Precision_Synthetic_Dataset_for_Satellite_Stereo_Matching_via_UnrealEngine>)** | **[Paper](<PAPER_LINK>)** | **[Supplemental](<SUPPLEMENTAL_LINK>)**
 
-**Han-Gyeol Kim** | **[Jaewan Park](<PROFILE_LINK>)** | **Junmin Park** | **[Darongsea Kwon](<PROFILE_LINK>)**
+**Han-Gyeol Kim** | **Jaewan Park** | **Junmin Park** | **Darongsea Kwon**
 
 ---
 
@@ -20,6 +20,7 @@ presented at **“CVPR Workshop EarthVision 2026”**.
 - [Ground-Truth Disparity Map Generation](#ground-truth-disparity-map-generation)
 - [License](#license)
 - [Citation](#citation)
+- [Acknowledgement](#acknowledgement)
 
 ---
 
@@ -185,7 +186,6 @@ Each stereo sample is accompanied by a JSON file containing scene, capture, and 
 
 <details>
 <summary>View JSON example</summary>
-
 ```json
 {
   "baseline_m": 50,
@@ -235,7 +235,7 @@ From these assets, the system generates synchronized stereo images along with co
 
 It then computes disparity maps and exports the results as a structured dataset. The exported dataset includes stereo pairs, raw disparity data, normalized disparity maps, and visualization outputs for inspection and evaluation.
 
-<table align="center" style="background-color: #ffffff"><tr><td align="center">
+<table align="center" bgcolor="#FFFFFF"><tr><td align="center">
 <img src="./images/FlowChart_DataSet.png" alt="SatUnreal dataset generation pipeline">
 </td></tr></table>
 
@@ -249,15 +249,15 @@ This dataset was generated at an altitude of **1 km** in Unreal Engine’s nativ
 
 <table>
   <tr>
-    <td align="center" valign="top" width="33%" style="background-color: #ffffff">
+    <td align="center" valign="top" width="33%" bgcolor="#FFFFFF">
       <b>California</b><br><br>
       <img src="./images/Tbn_California_1.png" alt="Tbn California_1" width="230"><br><br>
     </td>
-    <td align="center" valign="top" width="33%" style="background-color: #ffffff">
+    <td align="center" valign="top" width="33%" bgcolor="#FFFFFF">
       <b>Toronto</b><br><br>
       <img src="./images/Tbn_Toronto.png" alt="Tbn Toronto" width="230"><br><br>
     </td>
-    <td align="center" valign="top" width="33%" style="background-color: #ffffff">
+    <td align="center" valign="top" width="33%" bgcolor="#FFFFFF">
       <b>Venice</b><br><br>
       <img src="./images/Tbn_Venice.png" alt="Tbn Venice" width="230"><br><br>
     </td>
@@ -268,23 +268,23 @@ This dataset was generated at an altitude of **1 km** in Unreal Engine’s nativ
 
 <table>
   <tr>
-    <td align="center" valign="top" width="20%" style="background-color: #ffffff">
+    <td align="center" valign="top" width="20%" bgcolor="#FFFFFF">
       <b>Forest</b><br><br>
       <img src="./images/Tbn_Forest_NoTree.png" alt="Tbn Forest NoTree" width="170"><br><br>
     </td>
-    <td align="center" valign="top" width="20%" style="background-color: #ffffff">
+    <td align="center" valign="top" width="20%" bgcolor="#FFFFFF">
       <b>Canyon</b><br><br>
       <img src="./images/Tbn_Canyon_NoTree.png" alt="Tbn Canyon NoTree" width="170"><br><br>
     </td>
-    <td align="center" valign="top" width="20%" style="background-color: #ffffff">
+    <td align="center" valign="top" width="20%" bgcolor="#FFFFFF">
       <b>Coast</b><br><br>
       <img src="./images/Tbn_Coast.png" alt="Tbn Coast" width="170"><br><br>
     </td>
-    <td align="center" valign="top" width="20%" style="background-color: #ffffff">
+    <td align="center" valign="top" width="20%" bgcolor="#FFFFFF">
       <b>Desert</b><br><br>
       <img src="./images/Tbn_Desert.png" alt="Tbn Desert" width="170"><br><br>
     </td>
-    <td align="center" valign="top" width="20%" style="background-color: #ffffff">
+    <td align="center" valign="top" width="20%" bgcolor="#FFFFFF">
       <b>Field</b><br><br>
       <img src="./images/Tbn_Field.png" alt="Tbn Field" width="170"><br><br>
     </td>
@@ -423,7 +423,7 @@ d = u_L - u_R
 
 </details>
 
-<table align="center" style="background-color: #ffffff"><tr><td align="center">
+<table align="center" bgcolor="#FFFFFF"><tr><td align="center">
 <img src="./images/Algorithm_Disparity.png" alt="Ground-Truth Disparity Map Generation Algorithm">
 </td></tr></table>
 
@@ -459,7 +459,7 @@ If you use this dataset or find our work useful, please cite:
 ```bibtex
 @inproceedings{kim2026satunreal,
   title     = {SatUnreal: A High-Precision Synthetic Dataset for Satellite Stereo Matching via Unreal Engine},
-  author    = {HanGyeol_Kim, Jaewan_Park, Junmin_Park and Darongsea_Kwon},
+  author    = {HanGyeol-Kim, Jaewan-Park, Junmin-Park and Darongsea-Kwon},
   booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
   year      = {2026}
 }
@@ -469,11 +469,11 @@ If you use this dataset or find our work useful, please cite:
 
 ### AI Models
 
-- [RAFT_Stereo](<RAFT_STEREO_LINK>)
-- [Selective-IGEV](<SELECTIVE_IGEV_LINK>)
-- [DLNR](<DLNR_LINK>)
+- [RAFT-Stereo](https://github.com/princeton-vl/RAFT-Stereo)
+- [Selective-IGEV](https://github.com/Windsrain/Selective-Stereo)
+- [DLNR](https://github.com/David-Zhao-1997/High-frequency-Stereo-Matching-Network)
 
 ### Datasets
 
-- [US3D](<US3D_LINK>)
-- [WHU-Stereo](<WHU_STEREO_LINK>)
+- [US3D](https://github.com/pubgeo/dfc2019)
+- [WHU-Stereo](https://github.com/Sheng029/WHU-Stereo)
