@@ -458,6 +458,8 @@ TelePIX Inc. shall not be liable for any damages suffered by the user arising fr
 
 For the complete terms, please refer to the [LICENSE](./LICENSE) file.
 
+For information on how personal data is handled, see the TelePIX Inc. [Privacy Policy](<https://www.telepix.ai/privacy>).
+
 ---
 ## Citation
 
