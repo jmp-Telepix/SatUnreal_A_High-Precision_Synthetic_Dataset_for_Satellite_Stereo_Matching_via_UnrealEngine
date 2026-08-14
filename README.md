@@ -436,6 +436,9 @@ d = u_L - u_R
 
 ## License
 
+**SatUnreal Dataset License — Non-Commercial, No-Derivatives.**
+The full text is in [LICENSE](./LICENSE), which governs in case of any discrepancy with the summary below.
+
 This dataset and its related documentation (hereinafter referred to as the **“DataSet”**) were developed by **Han-Gyeol Kim, JaeWan Park, Junmin Park, and Darongsae Kwon**.
 
 Permission is granted to use the DataSet in unmodified source form on a confidential basis, provided that the following conditions are met:
@@ -447,13 +450,13 @@ Permission is granted to use the DataSet in unmodified source form on a confiden
 
 ### Disclaimer of Warranty
 
-Telepix makes no representations or warranties, express or implied, regarding the suitability of this DataSet, including, without limitation, any implied warranties of merchantability, fitness for a particular purpose, or non-infringement.
+TelePIX Inc. makes no representations or warranties, express or implied, regarding the suitability of this DataSet, including, without limitation, any implied warranties of merchantability, fitness for a particular purpose, or non-infringement.
 
 ### Limitation of Liability
 
-TELEPIX shall not be liable for any damages suffered by the user arising from the use, modification, or distribution of this DataSet.
+TelePIX Inc. shall not be liable for any damages suffered by the user arising from the use, modification, or distribution of this DataSet.
 
-For further details, please refer to the [license](<https://www.telepix.ai/privacy>).
+For the complete terms, please refer to the [LICENSE](./LICENSE) file.
 
 ---
 ## Citation
