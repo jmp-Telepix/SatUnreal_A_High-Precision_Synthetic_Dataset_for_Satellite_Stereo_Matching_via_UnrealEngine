@@ -1,8 +1,8 @@
 # SatUnreal: A High-Precision Synthetic Dataset for Satellite Stereo Matching via Unreal Engine
 
-**[Project page](<https://github.com/jmp-Telepix/SatUnreal_A_High-Precision_Synthetic_Dataset_for_Satellite_Stereo_Matching_via_UnrealEngine>)** | **[Paper](<https://share.google/jEmGoOeXo95ASPNrR>)** | **[Supplemental](<https://share.google/8qLWUash1XahDwUgz>)**
+**[Paper](<https://openaccess.thecvf.com/content/CVPR2026W/EarthVision/html/Kim_SatUnreal_A_High-Precision_Synthetic_Dataset_for_Satellite_Stereo_Matching_via_CVPRW_2026_paper.html>)** | **[PDF](<https://openaccess.thecvf.com/content/CVPR2026W/EarthVision/papers/Kim_SatUnreal_A_High-Precision_Synthetic_Dataset_for_Satellite_Stereo_Matching_via_CVPRW_2026_paper.pdf>)** | **[Supplemental](<https://openaccess.thecvf.com/content/CVPR2026W/EarthVision/supplemental/Kim_SatUnreal_A_High-Precision_CVPRW_2026_supplemental.pdf>)** | **[Dataset](#download-dataset-link)**
 
-**Han-Gyeol Kim** | **Jaewan Park** | **Junmin Park** | **Darongsea Kwon**
+**Han-Gyeol Kim** | **JaeWan Park** | **Junmin Park** | **Darongsae Kwon**
 
 ---
 
@@ -432,7 +432,7 @@ d = u_L - u_R
 
 ## License
 
-This dataset and its related documentation (hereinafter referred to as the **“DataSet”**) were developed by **Hankyul Kim, Jaewan Park, and Junmin Park, Darongsea_Kwon**.
+This dataset and its related documentation (hereinafter referred to as the **“DataSet”**) were developed by **Han-Gyeol Kim, JaeWan Park, Junmin Park, and Darongsae Kwon**.
 
 Permission is granted to use the DataSet in unmodified source form on a confidential basis, provided that the following conditions are met:
 
@@ -458,11 +458,13 @@ If you use this dataset or find our work useful, please cite:
 
 **SatUnreal:**
 ```bibtex
-@inproceedings{kim2026satunreal,
-  title     = {SatUnreal: A High-Precision Synthetic Dataset for Satellite Stereo Matching via Unreal Engine},
-  author    = {HanGyeol-Kim, Jaewan-Park, Junmin-Park and Darongsea-Kwon},
-  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
-  year      = {2026}
+@InProceedings{Kim_2026_CVPR,
+    author    = {Kim, Han-Gyeol and Park, JaeWan and Park, Junmin and Kwon, Darongsae},
+    title     = {SatUnreal: A High-Precision Synthetic Dataset for Satellite Stereo Matching via Unreal Engine},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2026},
+    pages     = {7990-7999}
 }
 ```
 ---
