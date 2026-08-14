@@ -2,7 +2,11 @@
 
 **[Paper](<https://openaccess.thecvf.com/content/CVPR2026W/EarthVision/html/Kim_SatUnreal_A_High-Precision_Synthetic_Dataset_for_Satellite_Stereo_Matching_via_CVPRW_2026_paper.html>)** | **[PDF](<https://openaccess.thecvf.com/content/CVPR2026W/EarthVision/papers/Kim_SatUnreal_A_High-Precision_Synthetic_Dataset_for_Satellite_Stereo_Matching_via_CVPRW_2026_paper.pdf>)** | **[Supplemental](<https://openaccess.thecvf.com/content/CVPR2026W/EarthVision/supplemental/Kim_SatUnreal_A_High-Precision_CVPRW_2026_supplemental.pdf>)** | **[Dataset](#download-dataset-link)**
 
-**Han-Gyeol Kim** | **JaeWan Park** | **Junmin Park** | **Darongsae Kwon**
+**Han-Gyeol Kim**<sup>\*</sup> | **JaeWan Park**<sup>\*</sup> | **Junmin Park** | **Darongsae Kwon**
+
+TelePIX, South Korea
+
+<sub><sup>\*</sup> Equal contribution</sub>
 
 ---
 
