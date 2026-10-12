@@ -232,7 +232,7 @@ Each stereo sample is accompanied by a JSON file containing scene, capture, and 
 
 ### Download Dataset Link
 
-**Google Drive:** [Link](<https://drive.google.com/drive/folders/1-UFgMuFVnlMw1pPQTtTEIG2zz5foioyk?usp=sharing>)
+**Hugging Face:** [telepix-ai/SatUnreal](<https://huggingface.co/datasets/telepix-ai/SatUnreal>) — sign in and accept the SatUnreal Dataset License to request access.
 
 ---
 
